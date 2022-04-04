@@ -1,0 +1,64 @@
+html {
+    /* background-color: #15202B; */
+    background-image: url(images.jpg)
+}
+
+body {
+    position: absolute;
+    padding: 20px;
+    top:  -70mm;
+    bottom:  0; 
+    left:  -400px;
+    right:  0;
+    margin:  auto;
+    width:  350px;
+    height: 250px; 
+}
+
+h1 {
+    color: rgb(0, 170, 255);
+}
+
+.username-style {
+    width: 300px;
+    height: 10mm;
+    font-size: 5mm;
+}
+.pwd-style {
+    width: 300px;
+    height: 10mm;
+    font-size: 5mm;
+}
+
+input.submit-style {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0.5em 6em;
+    width: 300px;
+    height: 12mm;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: rgb(45, 160, 218);
+    border-radius: 50vh;
+}
+
+::placeholder {
+    font-size: 13px;
+}
+
+.bg_test-text {
+    border:  solid 5px;                            /* 枠線指定 */
+    border-color: rgb(0, 170, 255);
+    display:  inline-block;                         /* インラインブロックにする */
+    padding: 30mm 60mm;                             /* 余白指定 */
+    background-color: rgba(255, 255, 255, 0.836);     /* 背景色指定 */
+}
+
+img {
+    width: 15mm;
+    height: 15mm;
+    padding: 0em 7.5em;
+}
