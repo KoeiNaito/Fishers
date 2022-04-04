@@ -22,7 +22,7 @@ def error():
         """
         LINEに通知する
         """
-        line_notify_token = 'qXBsi0yy2SLnJLX4DxwuEFfSrZ3YSun1zCCUIL5BQQJ'
+        line_notify_token = 'Input Your API Key!!!!!'
         line_notify_api = 'https://notify-api.line.me/api/notify'
         headers = {'Authorization': f'Bearer {line_notify_token}'}
         data = {'message': notification_message}
